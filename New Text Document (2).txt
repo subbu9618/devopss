@@ -1,0 +1,52 @@
+
+install git in amazon linux
+
+yum install git -y
+
+initializing git
+
+git --version
+
+git init .
+
+to check inintialized or not
+
+ls -al
+.git in blue colour now it is ok
+
+create file
+touch filename
+touch file1
+
+to write inside a file
+vim file1
+write or copy paste
+
+to save file
+esc button press and shipt :wq
+
+to see the file without edit file
+cat file1
+
+to add file
+git status
+git add file1 or . dot mean current directry
+
+to commit
+git commit -u "first commit" file1 or . dot
+
+to check commit or not
+git log
+
+
+
+to add git repository
+git remote add origin https://github.com/subbu9618/devopss.git
+
+to create  token
+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
+
+to send files to git hub with access
+git push -u origin master
+ask user name
+ask password or token id
